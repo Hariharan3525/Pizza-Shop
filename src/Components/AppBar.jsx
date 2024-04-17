@@ -8,7 +8,7 @@ const AppBar = () => {
   return (
     <div>
       <Navbar bg="warning" expand="md">
-        <Contain
+        <Container>
           <Navbar.Brand href="#home"><h2 className="text-danger"><span><i className="bi bi-yelp"></i>Pizza Shop</span></h2></Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav" className="justify-content-end">
